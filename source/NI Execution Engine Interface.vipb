@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-08-01 11:27:28" Creator="Daniel" Comments="" ID="220c2cc904d33eae722c694a8b786c21">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-08-01 11:49:00" Creator="Daniel" Comments="" ID="579237ff3e2c9b113819ab632c72604a">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_execsys</Package_File_Name>
     <Library_Version>1.0.0.20</Library_Version>
@@ -33,8 +33,8 @@
       <Description/>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
-      <URL/>
-      <Release_Notes>Changed global version out for VI, locked UI</Release_Notes>
+      <URL>https://github.com/TBDFramework/ExecutionInterface</URL>
+      <Release_Notes/>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -252,7 +252,7 @@
         <Path>Filters</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E74646ABCDE4D58AB62A92B6F7203B5</GUID>
+      <GUID>D460FC4301415FB9F015BDD3006032CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -385,7 +385,7 @@
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0BCA833A1EBD8671390B6608CFC5F07</GUID>
+      <GUID>2EC0CD4574C6CD2E6C06F64EFED3F2B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -476,7 +476,7 @@
         <Path>Engine Configuration\rename channel in mapping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2014B7E22A7AE7A5E5CFDD36912531DA</GUID>
+      <GUID>7918DD48E9D61A81BF278F3C57FEBF11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -609,7 +609,7 @@
         <Path>Engine Configuration\get mapped channels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3906CD52545A11A45FFEAD58DDC0A8A8</GUID>
+      <GUID>E841D2C9A4F24196D3704C5DAA88B0C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -756,7 +756,7 @@
         <Path>Engine Runtime\Read Buffered Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DBD6ACA0D28667F388E620574BE1492</GUID>
+      <GUID>CA7D81CEA90A01AF7B2CA3F4D6141B9A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
