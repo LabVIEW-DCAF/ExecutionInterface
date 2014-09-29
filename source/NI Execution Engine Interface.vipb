@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-08-20 17:14:20" Creator="Daniel" Comments="" ID="b7f2a3338371c8f9003246e9799b1019">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-09-29 18:19:06" Creator="Daniel" Comments="" ID="ecda3715a0b0545da48fbc4817f398c0">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_execsys</Package_File_Name>
-    <Library_Version>1.0.0.21</Library_Version>
+    <Library_Version>1.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\execution interface</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/ExecutionInterface</URL>
-      <Release_Notes/>
+      <Release_Notes>Added simple sample engine, added module concept to parent engine to do error checking on modules which don't exist</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -98,6 +98,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>TagBusModuleExecutionInterface-errors.txt</Path>
+        <Destination>3</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -142,7 +148,7 @@
       <Functions_Palette_Information>
         <Virtual_Palette_Base_Path>Functions\Addons</Virtual_Palette_Base_Path>
         <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons</Palette_Disk_Base_Path>
-        <Syncing_MNU_file>&lt;Not A Path&gt;</Syncing_MNU_file>
+        <Syncing_MNU_file/>
       </Functions_Palette_Information>
       <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
       <Apply_Short_Names_to_VI_Titles_2>false</Apply_Short_Names_to_VI_Titles_2>
@@ -179,7 +185,7 @@
   <Library_Palette_Definition>
     <Functions_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
-      <Name/>
+      <Name>Module Execution Interface</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
@@ -252,7 +258,7 @@
         <Path>Filters</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A454D0584846B19C96901368096C8EE</GUID>
+      <GUID>DA49F942E11E3DBA5823C0BD7E39E10F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -385,7 +391,7 @@
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF76E247E508FB1E902905D0DF8E3519</GUID>
+      <GUID>9D7BA0F0D158FC654B5F60638D3FC8C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -476,7 +482,7 @@
         <Path>Engine Configuration\rename channel in mapping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50E087E48F4732E9F1B88293887B077A</GUID>
+      <GUID>4C590A8702537A2B419BACE18E9ECB31</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -609,7 +615,7 @@
         <Path>Engine Configuration\get mapped channels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>975F56E80123AAF79ACC28B87E9D9A27</GUID>
+      <GUID>0BBB13691F60E2CD55142BB16B40F5B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -756,7 +762,7 @@
         <Path>Engine Runtime\Read Buffered Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1BBFF212CEA264AF0C0F636B68B6043</GUID>
+      <GUID>5055F3716D57D2864C3B5EA7829CD354</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
