@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Tag Bus Module Execution Interface" displayname="Tag Bus Module Execution Interface">
+</nifamily>
+</nicomment>
+<nierror code="538299">
+Module not found
+</nierror>
+<nierror code="538298">
+Module ID invalid
+</nierror>
+</nidocument>
