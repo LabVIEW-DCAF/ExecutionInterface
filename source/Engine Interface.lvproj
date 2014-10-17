@@ -30,6 +30,7 @@
 		</Item>
 		<Item Name="engine configuration.lvclass" Type="LVClass" URL="../Engine Configuration/engine configuration.lvclass"/>
 		<Item Name="Engine Runtime Interface.lvclass" Type="LVClass" URL="../Engine Runtime/Engine Runtime Interface.lvclass"/>
+		<Item Name="execution interface tests.lvlib" Type="Library" URL="../tests/execution interface tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
