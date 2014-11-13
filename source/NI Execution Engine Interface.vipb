@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-11-12 19:03:09" Creator="Daniel" Comments="" ID="b7bc7b48c6b184430035c0e88b7a6375">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-11-12 19:26:16" Creator="Daniel" Comments="" ID="075d6b917175ddac580be4c09e685321">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_execsys</Package_File_Name>
-    <Library_Version>1.1.2.6</Library_Version>
+    <Library_Version>1.1.3.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\execution interface</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/ExecutionInterface</URL>
-      <Release_Notes>was not serializing module info correctly</Release_Notes>
+      <Release_Notes>added function to clear any deleted channels from the system</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -278,7 +278,7 @@
         <Path>modules</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F51869BF39AACA0B582BE95DC74D0B1D</GUID>
+      <GUID>E9CB3E02B083B353B2FBD86B0A18D2E1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -411,7 +411,7 @@
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CF6B07F3C0DA570F4F6E44F4980729F</GUID>
+      <GUID>7C11C25940F43F087EF5985F2748C11E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +502,7 @@
         <Path>Engine Configuration\rename channel in mapping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7652C79DBD15D9AFE87DB058961F64DB</GUID>
+      <GUID>0B53F7C55A80D5C9FD1B9620998FB48A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -635,7 +635,7 @@
         <Path>Engine Configuration\get mapped channels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>726DE843E7BBB4E84CE6E3F3728EB405</GUID>
+      <GUID>CA160ED28656CEB6402A6B1F97D89CC8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -782,7 +782,7 @@
         <Path>Engine Runtime\Read Buffered Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>042115BBC0094881A0AB2F8C1054F7FA</GUID>
+      <GUID>9AC61E4A4FAE1D28426D9BE4102B1BCB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -845,7 +845,7 @@
         <Path>Engine Configuration\is module registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2041DF273834920165EE6CD550D2847E</GUID>
+      <GUID>A2EFAB3455FFFF8724A9689BD2530292</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
