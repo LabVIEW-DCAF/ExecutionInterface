@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-11-12 19:26:16" Creator="Daniel" Comments="" ID="075d6b917175ddac580be4c09e685321">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-11-13 21:27:34" Creator="Daniel" Comments="" ID="d39b7fbd08bffbae2818f5271f3b06f3">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_execsys</Package_File_Name>
-    <Library_Version>1.1.3.1</Library_Version>
+    <Library_Version>1.1.4.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\execution interface</Library_Output_Folder>
@@ -278,7 +278,7 @@
         <Path>modules</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9CB3E02B083B353B2FBD86B0A18D2E1</GUID>
+      <GUID>F2A3E8C9C722324E6F0FC8744A36FBB1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -411,7 +411,7 @@
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C11C25940F43F087EF5985F2748C11E</GUID>
+      <GUID>243A960EE7A549648E0FDEAB904A4EF3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +502,7 @@
         <Path>Engine Configuration\rename channel in mapping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B53F7C55A80D5C9FD1B9620998FB48A</GUID>
+      <GUID>3776FC23FF4DC16B5DDD51E62C14BD5B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -635,7 +635,7 @@
         <Path>Engine Configuration\get mapped channels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA160ED28656CEB6402A6B1F97D89CC8</GUID>
+      <GUID>2F66BC245BF84FC06F28851C8E85ED12</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -782,7 +782,7 @@
         <Path>Engine Runtime\Read Buffered Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AC61E4A4FAE1D28426D9BE4102B1BCB</GUID>
+      <GUID>5ECA3597300F7A6F1F221DE295D252E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -845,7 +845,7 @@
         <Path>Engine Configuration\is module registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2EFAB3455FFFF8724A9689BD2530292</GUID>
+      <GUID>A4593DC5447C9A02DE5F477824E6B131</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
