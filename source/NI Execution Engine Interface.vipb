@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-11-20 01:04:20" Creator="Daniel" Comments="" ID="57d37417624e7dab2f8b22257ea1c4f3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2014-11-21 17:38:22" Creator="Daniel" Comments="" ID="8942406ff12faa0c219932f62335464f">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_execsys</Package_File_Name>
-    <Library_Version>1.2.0.2</Library_Version>
+    <Library_Version>2.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\execution interface</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_tbm &gt;=1.0.3.41</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_tbm &gt;=2.0.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/ExecutionInterface</URL>
-      <Release_Notes>restructured innards to improve performance and reduce complexity significantly</Release_Notes>
+      <Release_Notes>Upgrade to CEF 2.0 and TBM 2.0</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -124,7 +124,7 @@
         <Path>simple synchronous engine</Path>
       </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>NI_Sample_Code_ License_Terms_201202.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -278,7 +278,7 @@
         <Path>modules</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>539A4F0012CB8A952BB0A0AD440F775F</GUID>
+      <GUID>74681871C8F3DEBE95E76FA3F17CA65F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -411,7 +411,7 @@
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCA2D6495C2028F9A2D78BD86CADE161</GUID>
+      <GUID>7D31CB459BAC0C0A183730B577548144</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +502,7 @@
         <Path>Engine Configuration\rename channel in mapping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>255DF8608296620619EF9B561B085664</GUID>
+      <GUID>F47F0486DC51B19FE63893444A412B52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -535,20 +535,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>Engine Configuration\find tag mapped to channel.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>filter mappings by owner.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Engine Configuration\filter mappings by owner.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -635,7 +621,7 @@
         <Path>Engine Configuration\get mapped channels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB7C0290B0AC490BBE28F28966FED34D</GUID>
+      <GUID>F818772539A955E8106FC21AC76BC275</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -782,7 +768,7 @@
         <Path>Engine Runtime\Read Buffered Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96B6D8E21A956F025DB0407834346DDC</GUID>
+      <GUID>8EED19A177AC30091359897FFBF2AC12</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -845,7 +831,7 @@
         <Path>Engine Configuration\is module registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B869268B6A91211ECD486E5180277B96</GUID>
+      <GUID>AAD34C92D5791F92CFBFC70A4B65E22F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
