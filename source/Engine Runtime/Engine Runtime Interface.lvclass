@@ -85,7 +85,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
-	<Item Name="Set Safe State.vi" Type="VI" URL="../Set Safe State.vi">
+	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!C)%6O:WFO:3"3&gt;7ZU;7VF)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!!=27ZH;7ZF)&amp;*V&lt;H2J&lt;75A37ZU:8*G97.F)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%B!=!!?!!!C)%6O:WFO:3"3&gt;7ZU;7VF)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!!&lt;27ZH;7ZF)&amp;*V&lt;H2J&lt;75A37ZU:8*G97.F)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
@@ -94,7 +94,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
-	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi">
+	<Item Name="Set Safe State.vi" Type="VI" URL="../Set Safe State.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!C)%6O:WFO:3"3&gt;7ZU;7VF)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!!=27ZH;7ZF)&amp;*V&lt;H2J&lt;75A37ZU:8*G97.F)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%B!=!!?!!!C)%6O:WFO:3"3&gt;7ZU;7VF)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!!&lt;27ZH;7ZF)&amp;*V&lt;H2J&lt;75A37ZU:8*G97.F)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
