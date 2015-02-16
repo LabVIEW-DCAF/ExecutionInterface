@@ -11,4 +11,10 @@ Module not found
 <nierror code="538298">
 Module ID invalid
 </nierror>
+<nierror code="538297">
+Multiple reader channels or multiple writer channels cannot be mapped together
+</nierror>
+<nierror code="538296">
+All selected channels are already mapped
+</nierror>
 </nidocument>

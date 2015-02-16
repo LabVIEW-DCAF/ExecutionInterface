@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2015-01-30 17:58:57" Creator="Daniel" Comments="" ID="b796955beecf7e11ee13cf7cac63c19c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2015-02-15 00:11:21" Creator="Daniel" Comments="" ID="cc5a1dcceaaa7c13cfb9f444c32bd415">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_execsys</Package_File_Name>
-    <Library_Version>2.1.1.2</Library_Version>
+    <Library_Version>2.1.3.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\execution interface</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/ExecutionInterface</URL>
-      <Release_Notes>Added documentation</Release_Notes>
+      <Release_Notes>Add function to map channels to channels and to get unmaped tags.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -278,7 +278,7 @@
         <Path>modules</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE9FD187251DFB6FB2B5E7054CF04585</GUID>
+      <GUID>5103C7F5C536E8FC672454EF57E7D231</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -411,7 +411,7 @@
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32170C835DEB95B6AE52645E35725B45</GUID>
+      <GUID>E70DCE42C67860314CB51E0DD8C6F456</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -468,7 +468,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Engine Configuration\delete mapping by channel.vi</Path>
@@ -502,7 +502,35 @@
         <Path>Engine Configuration\rename channel in mapping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19776915722BCDAD1D94EBE596706FBD</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>map channels together.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Engine Configuration\map channels together.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>get channels mapped to tag.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Engine Configuration\get channels mapped to tag.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>7B25170606C93B11BEB906D3D9A27099</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -621,7 +649,21 @@
         <Path>Engine Configuration\get mapped channels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0ED856B3800E60F366A350BFBFD64D22</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>get unmapped tag list.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Engine Configuration\get unmapped tag list.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>EE472D0E4B96D2BD06FA4C83A55C5129</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -796,7 +838,7 @@
         <Path>Engine Runtime\Read Fault List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7BC3D62915F98DC3693A64D0A1EEBB5</GUID>
+      <GUID>2AF92320692F6ED83450D55C0382A5D1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -859,7 +901,7 @@
         <Path>Engine Configuration\is module registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB10C6A0DE0BDBEB7E90A015260328FA</GUID>
+      <GUID>FCEE7EEC1F0BF1CC03999AF393A5A615</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
