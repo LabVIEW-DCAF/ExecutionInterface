@@ -20,4 +20,7 @@ All selected channels are already mapped
 <nierror code="538295">
 The engine is not in a state compatible with this operation.
 </nierror>
+<nierror code="538294">
+The request-response cycle timed out
+</nierror>
 </nidocument>
