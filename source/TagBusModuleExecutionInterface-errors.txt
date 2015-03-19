@@ -17,4 +17,7 @@ Multiple reader channels or multiple writer channels cannot be mapped together
 <nierror code="538296">
 All selected channels are already mapped
 </nierror>
+<nierror code="538295">
+The engine is not in a state compatible with this operation.
+</nierror>
 </nidocument>
