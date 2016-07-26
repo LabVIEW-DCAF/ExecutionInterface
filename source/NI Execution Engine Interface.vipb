@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2016-07-25 15:48:23" Creator="Daniel" Comments="" ID="9c08be15aee6418343db086b42986620">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2016-07-26 15:57:58" Creator="Daniel" Comments="" ID="c4f67bb8551ecaf1554f0b22333be126">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_execution_interface</Package_File_Name>
     <Library_Version>2.1.3.2</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_tbm &gt;=2.1.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_module_interface &gt;=2.1.1.43</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -278,7 +278,7 @@
         <Path>modules</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D741CCD94050849324A3BC6484EA5954</GUID>
+      <GUID>C1C5AA8CB1D30780CB6BB1FB864D4C84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -411,7 +411,7 @@
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>006A5D15D9BC037DAA0B53F674CB4764</GUID>
+      <GUID>D5064977CF3D92DD48C40D45BA3A2442</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +530,7 @@
         <Path>Engine Configuration\get channels mapped to tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B74B72D2BEBD044D4E2DB77566BCA197</GUID>
+      <GUID>EF07D04E587040B6B8B8344DB12B7B22</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -663,7 +663,7 @@
         <Path>Engine Configuration\get unmapped tag list.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6375C5B15F897495DEBF8CD6D948FD74</GUID>
+      <GUID>309CB33D11468D189393F963D6A11FE7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -838,7 +838,7 @@
         <Path>Engine Runtime\Read Fault List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DBB2DDFA14AE4526FAEBC8F889E2CD4</GUID>
+      <GUID>876CCBD267EBAF0E5DC4611326F71ED6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -901,7 +901,7 @@
         <Path>Engine Configuration\is module registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>587588EE33FDB8BEE4AC0E96DC19AF94</GUID>
+      <GUID>BE9901D3AFD0E4EF9EE32FC077C7FAC8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
