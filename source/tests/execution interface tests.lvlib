@@ -4,5 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="module id update test.lvtest" Type="TestItem" URL="../module id update test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">execution interface tests.lvlib:module id update test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">33DD6AFF-52D9-0718-2542-60FF83E8976F</Property>
+	</Item>
+	<Item Name="module id update test.vi" Type="VI" URL="../module id update test.vi"/>
+	<Item Name="serialization test.lvtest" Type="TestItem" URL="../serialization test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">execution interface tests.lvlib:serialization test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">9E13E600-6290-5017-963D-D7DFB2C22B4A</Property>
+	</Item>
 	<Item Name="serialization test.vi" Type="VI" URL="../serialization test.vi"/>
 </Library>

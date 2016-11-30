@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2016-07-26 15:57:58" Creator="Daniel" Comments="" ID="c4f67bb8551ecaf1554f0b22333be126">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2016-11-30 16:49:58" Creator="Daniel" Comments="" ID="2326d290328383eb6193270d536a752d">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_execution_interface</Package_File_Name>
-    <Library_Version>2.1.3.2</Library_Version>
+    <Library_Version>2.1.3.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\execution interface</Library_Output_Folder>
@@ -34,7 +34,8 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/ExecutionInterface</URL>
-      <Release_Notes>Add function to map channels to channels and to get unmaped tags.</Release_Notes>
+      <Release_Notes>New function for updating modules id
+Added some unit test</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -278,7 +279,7 @@
         <Path>modules</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1C5AA8CB1D30780CB6BB1FB864D4C84</GUID>
+      <GUID>9FF2FDDB6CD3054B2CCA74656D01505F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -411,7 +412,7 @@
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5064977CF3D92DD48C40D45BA3A2442</GUID>
+      <GUID>8A41B384CD40083B0C2FB13F0334A4DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +531,7 @@
         <Path>Engine Configuration\get channels mapped to tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF07D04E587040B6B8B8344DB12B7B22</GUID>
+      <GUID>0EBD82ADDD3970D56C22E8B4F3A94FD5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -663,7 +664,7 @@
         <Path>Engine Configuration\get unmapped tag list.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>309CB33D11468D189393F963D6A11FE7</GUID>
+      <GUID>79187D30E324620ACC428C64BCC418B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -838,7 +839,7 @@
         <Path>Engine Runtime\Read Fault List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>876CCBD267EBAF0E5DC4611326F71ED6</GUID>
+      <GUID>E7654F88DC6B33F9F3B796AFDB6F6CD9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -901,7 +902,7 @@
         <Path>Engine Configuration\is module registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE9901D3AFD0E4EF9EE32FC077C7FAC8</GUID>
+      <GUID>CEF86BD58F7C4393D453AF6112997857</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
