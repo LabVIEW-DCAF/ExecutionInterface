@@ -6,12 +6,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="module id update test.lvtest" Type="TestItem" URL="../module id update test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">execution interface tests.lvlib:module id update test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">33DD6AFF-52D9-0718-2542-60FF83E8976F</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">027C2A8F-4CF3-EDC6-5FDD-01447586D7AC</Property>
 	</Item>
 	<Item Name="module id update test.vi" Type="VI" URL="../module id update test.vi"/>
 	<Item Name="serialization test.lvtest" Type="TestItem" URL="../serialization test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">execution interface tests.lvlib:serialization test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">9E13E600-6290-5017-963D-D7DFB2C22B4A</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">1DF741AE-8D64-986D-17E0-AF3C1611B9CE</Property>
 	</Item>
 	<Item Name="serialization test.vi" Type="VI" URL="../serialization test.vi"/>
 </Library>
