@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2016-11-30 16:49:58" Creator="Daniel" Comments="" ID="2326d290328383eb6193270d536a752d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-11 18:57:17" Modified_Date="2016-12-12 14:35:20" Creator="Daniel" Comments="" ID="f8293e84a1cb71dfff1d95262375b30f">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_execution_interface</Package_File_Name>
-    <Library_Version>2.1.3.3</Library_Version>
+    <Library_Version>2.2.3.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\execution interface</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_module_interface &gt;=2.1.1.43</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_module_interface &gt;=2.2.0.62</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -34,8 +34,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/ExecutionInterface</URL>
-      <Release_Notes>New function for updating modules id
-Added some unit test</Release_Notes>
+      <Release_Notes>Release for DCAF 1.1</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -279,7 +278,7 @@ Added some unit test</Release_Notes>
         <Path>modules</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FF2FDDB6CD3054B2CCA74656D01505F</GUID>
+      <GUID>CD9EF8012153211E0355236D7E64A642</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -412,7 +411,7 @@ Added some unit test</Release_Notes>
         <Path>Engine Configuration\add tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A41B384CD40083B0C2FB13F0334A4DF</GUID>
+      <GUID>DCD73023564F654B722A912BBD35BD25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -531,7 +530,7 @@ Added some unit test</Release_Notes>
         <Path>Engine Configuration\get channels mapped to tag.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0EBD82ADDD3970D56C22E8B4F3A94FD5</GUID>
+      <GUID>AB74ED269944049B42A1EBDA02A58971</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -664,7 +663,7 @@ Added some unit test</Release_Notes>
         <Path>Engine Configuration\get unmapped tag list.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79187D30E324620ACC428C64BCC418B7</GUID>
+      <GUID>17872FB1252AF4B8FDDD568A91A0104D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -839,7 +838,7 @@ Added some unit test</Release_Notes>
         <Path>Engine Runtime\Read Fault List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7654F88DC6B33F9F3B796AFDB6F6CD9</GUID>
+      <GUID>AE886D6ED2BA522BD8C10FB223635A16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -902,7 +901,7 @@ Added some unit test</Release_Notes>
         <Path>Engine Configuration\is module registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CEF86BD58F7C4393D453AF6112997857</GUID>
+      <GUID>84727E5F1DE7C42A588AF3E87BE18FA1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
